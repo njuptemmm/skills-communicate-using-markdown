@@ -6,3 +6,13 @@
 ``` javascript
 var myVar = "Hello, world!";
 ```
+配置Cassandra地址：
+
+```YAML
+spring:
+  cassandra:
+    contact-points: 192.168.150.101:9042
+    local-datacenter: datacenter1
+```
+
+配置VectorStore：
